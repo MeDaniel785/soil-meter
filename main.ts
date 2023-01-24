@@ -26,6 +26,6 @@ basic.forever(function () {
     )
     if (input.buttonIsPressed(Button.A)) {
         basic.showNumber(reading)
-        basic.pause(5000)
+        basic.pause(2000)
     }
 })
