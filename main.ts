@@ -1,8 +1,3 @@
-input.onButtonPressed(Button.AB, function () {
-    input.calibrateCompass()
-    basic.showString("Compass calibrated.")
-    basic.showIcon(IconNames.Yes)
-})
 let reading = 0
 music.playSoundEffect(music.builtinSoundEffect(soundExpression.hello), SoundExpressionPlayMode.UntilDone)
 basic.showIcon(IconNames.Happy)
