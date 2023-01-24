@@ -9,7 +9,7 @@ basic.showIcon(IconNames.Happy)
 led.setBrightness(64)
 basic.forever(function () {
     if (input.logoIsPressed()) {
-        basic.showString("The temperature is")
+        basic.showString("Temp:")
         basic.showNumber(input.temperature())
         basic.showString("°C")
     }
